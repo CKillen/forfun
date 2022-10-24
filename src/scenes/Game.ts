@@ -24,7 +24,7 @@ export default class Demo extends Phaser.Scene {
     const particles = this.add.particles('logo');
 
     particles.createEmitter({
-      scale: { start: 1, end: 0 },
+      scale: { start: 1, end: 2 },
       follow: logo,
     })
   }
